@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Command\Users\" />
-    <Folder Include="Dtos\UserDtos\Users\" />
     <Folder Include="Handlers\CommandHandlers\Users\" />
     <Folder Include="Handlers\QuerisHandlers\Users\" />
     <Folder Include="Mapping\" />
