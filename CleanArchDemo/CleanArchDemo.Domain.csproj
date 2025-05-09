@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Entitis\Common\" />
     <Folder Include="Enums\Users\" />
-    <Folder Include="Interface\Users\" />
     <Folder Include="Exeptions\" />
   </ItemGroup>
 
