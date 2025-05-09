@@ -11,7 +11,7 @@ namespace CleanArchDemo.Domain.Interface.Users
     {
 
         Task<List<User>> GetAllUsersAsync(CancellationToken cancellationToken);
-        Task<User> GetUserByIdAsync(int id,CancellationToken cancellationToken);
+        Task<User> GetUserByIdAsync(double id,CancellationToken cancellationToken);
         Task AddUserAsync(User user, CancellationToken cancellationToken);
 
         Task UpdateUserAsync(User user, CancellationToken cancellationToken);
