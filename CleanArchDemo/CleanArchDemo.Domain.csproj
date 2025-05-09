@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Entitis\Common\" />
     <Folder Include="Enums\Users\" />
     <Folder Include="Interface\Users\" />
     <Folder Include="Exeptions\" />
-    <Folder Include="ValueObject\Users\" />
   </ItemGroup>
 
 </Project>
