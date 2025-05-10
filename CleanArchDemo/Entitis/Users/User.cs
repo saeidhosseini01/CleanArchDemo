@@ -8,9 +8,9 @@ namespace CleanArchDemo.Domain.Entitis.Users
 {
     public record User
     {
-        public double Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public double Age { get; set; }
+        public int Age { get; set; }
     }
 }

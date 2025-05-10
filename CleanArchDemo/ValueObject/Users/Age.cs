@@ -8,8 +8,8 @@ namespace CleanArchDemo.Domain.ValueObject.Users
 {
 
 
-    public record Age(double Value) 
+    public record Age(int Value) 
     {
-        public static implicit operator double(Age age) => age.Value;
+        public static implicit operator int(Age age) => age.Value;
     }
 }

@@ -10,12 +10,12 @@ namespace CleanArchDemo.Applications.Dtos.UserDtos.Users
     public class UserDto
     {
         [JsonPropertyName("id")]
-        public Double Id { get; set; }
+        public int Id { get; set; }
         [JsonPropertyName("Name")]
         public string Name { get; set; }
 
         [JsonPropertyName("Age")]
-        public double Age { get; set; }
+        public int Age { get; set; }
 
         [JsonPropertyName("Email")]
         public string Email { get; set; }

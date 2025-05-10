@@ -9,7 +9,11 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="APIs\" />
-    <Folder Include="Repositoris\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchDemo.Persistance\CleanArchDemo.Persistance.csproj" />
+    <ProjectReference Include="..\CleanArchDemo\CleanArchDemo.Domain.csproj" />
   </ItemGroup>
 
 </Project>

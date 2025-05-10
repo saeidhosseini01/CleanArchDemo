@@ -5,9 +5,9 @@ namespace CleanArchDemo.Applications.Queris.Users
 {
     public class GetUserById : IRequest<UserDto>
     {
-        public readonly double id;
+        public readonly int id;
 
-        public GetUserById(double id)
+        public GetUserById(int id)
         {
             this.id = id;
         }

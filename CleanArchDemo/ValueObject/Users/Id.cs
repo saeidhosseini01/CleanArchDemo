@@ -9,8 +9,8 @@ namespace CleanArchDemo.Domain.ValueObject.Users
 
 
 
-    public record Id(double Value)
+    public record Id(int Value)
     {
-        public static implicit operator double(Id id) => id.Value;
+        public static implicit operator int(Id id) => id.Value;
     }
 }

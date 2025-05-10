@@ -9,7 +9,7 @@ namespace CleanArchDemo.Domain.Exaption
     public  class NotFountUserException:Exception
     {
         public NotFountUserException(string name, object key)
-        : base($"{name} whid {key} was not Fount.") { };
+        : base($"{name} whid {key} was not Fount.") { }
             
         
     }
