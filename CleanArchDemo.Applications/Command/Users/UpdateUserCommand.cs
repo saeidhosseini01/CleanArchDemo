@@ -9,7 +9,7 @@ namespace CleanArchDemo.Applications.Command.Users
         public int id { get; set; } = id;
         public string name { get; set; } = name;
         public string Email { get; set; } = email;
-        public int Age { get; set; } = age
+        public int Age { get; set; } = age;
 
     }
 }
